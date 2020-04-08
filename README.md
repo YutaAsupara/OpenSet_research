@@ -35,7 +35,11 @@
 
 ### 参考文献
 [1]Scheirer, W. J. Rocha, A. Sapkota, A. and Boult, T. E. Towards open set recognition. IEEE T-PAMI vol. 36, 2013. 
+
 [2]A. Bendale and T. E. Boult, “Towards open set deep networks,”Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 1563–1572, 2016.
+
 [3]E. M. Rudd, L. P. Jain, W. J. Scheirer and T. E. Boult, “The extreme value machine,” IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 40, no. 3, pp. 762–768, 2018.
+
 [4]C Geng, S Huang, and Songcan Chen, "Recent Advances in Open Set Recognition: A Survey" arXiv:1811.08581
+
 [5]J. Donahue, Y. Jia, O. Vinyals, J. Hoffman, N. Zhang, E. Tzeng, and T. Darrell. Decaf: A deep convolutional acti- vation feature for generic visual recognition. arXiv preprint arXiv:1310.1531, 2013.
