@@ -7,7 +7,7 @@
 
 　この時，モデルに未知を検出する構造が導入されていれば，未知のクラスのデータが入ってきた場合に誤って既知のクラスに分類することを避けることができる．未知を未知として扱える構造は，誤りを減らすだけでなく，未知として正しく判別できれば，未知と判別されたデータを収集して，新たなクラスを定義することも考えられる．
 
-<img width="529" alt="Object 138.jpg" src="https://glia-computing.qiita.com/files/99f34d2b-b124-5429-22e0-a9cc766ded72.jpeg">
+![Object 138](https://user-images.githubusercontent.com/17122464/78804975-ccec1e80-79fb-11ea-85b2-a144a7a88f25.jpg)
 図1. オープンワールド認識のための考え方，モデルが未知を未知として検出できれば，新しいクラスとしてデータを作り，認識器を機能を増やすことにも繋がる．（画像はBendaleらの[2]より引用 ）
 
 # OpenMax
@@ -21,9 +21,9 @@
 
 # Extreme Value Machine
 　Extreme Value Machine[3]では，Extreme Value Theoryを用いて，特徴マップから得るmargin distributionを基に閾値処理を行なって，未知を検出する仕組みを用いる．
-<img width="793" alt="Object 143.jpg" src="https://glia-computing.qiita.com/files/8c02bed0-787e-e580-44d8-2f4c88b00826.jpeg">
-<img width="724" alt="Object 142.jpg" src="https://glia-computing.qiita.com/files/eae61471-2b7e-7ff1-fb9b-5cfd4c626436.jpeg">
-<img width="686" alt="Object 141.jpg" src="https://glia-computing.qiita.com/files/b88c2a09-5b83-0f82-9e7f-697928d0db90.jpeg">
+![Object 143](https://user-images.githubusercontent.com/17122464/78805072-ed1bdd80-79fb-11ea-981d-9a6712cc50fd.jpg)
+![Object 141](https://user-images.githubusercontent.com/17122464/78805085-f1e09180-79fb-11ea-9caf-d97b0d46504e.jpg)
+![Object 142](https://user-images.githubusercontent.com/17122464/78805077-eee5a100-79fb-11ea-95cb-339571084fed.jpg)
 
 このモデルはデータ数が増える意味でのIncremental な状況にも対応していて，Open Set RecognitionでありながらOpen World Recognitionに対応する考え方になっている．
 
