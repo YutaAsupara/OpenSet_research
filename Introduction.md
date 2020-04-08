@@ -1,4 +1,4 @@
-# 「識別モデルの構造も，結果をできるだけ変えずに」OpenSetRecogntionに対応するモデルを実現したい
+# 「識別モデルの構造，結果をできるだけ変えずに」OpenSetRecogntionに対応するモデルを実現したい
 
 # OpenSetRecognition
 
