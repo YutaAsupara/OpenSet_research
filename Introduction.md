@@ -5,7 +5,7 @@
 　Scheirerらの[1]では
 > —To date, almost all experimental evaluations of machine learning based recognition algorithms in computer vision have taken the form of “closed set” recognition, whereby all testing classes are known at training time. A more realistic scenario for vision applications is “open set” recognition, in which incomplete knowledge of the world is present at training time, and unknown classes can be submitted to an algorithm during testing.
 
-　と述べられており，現実世界に適用できる認識モデルを作ることは難しい課題となっている．実際に，画像を用いて犬と猫を識別するモデルを作成した場合，そこにタヌキの画像が入力されても，犬と猫のどちらのクラスに属しているかを出力する．また，工業製品の完成品を画像として入力し，作られた製品が良品か不良品であるかを判別するモデルを作る際にも，あらかじめ不良品のパターンを想定し，学習データを作成することになる．しかし，全ての不良を想定するのは難しく，運用時にうまくいかない要因となる．
+　と述べられており，現実世界に適用できる認識モデルを作ることは難しい課題となっている．実際に，画像を用いて犬と猫を識別するモデルを作成した場合，そこにタヌキの画像が入力されても，犬と猫のどちらのクラスに属しているかを出力する．また，工業製品の完成品を画像として入力し，作られた製品が良品か不良品であるかを判別するモデルを作る際にも，あらかじめ不良品のパターンを想定し，学習データを作成することになる．しかし，全ての不良を想定するのは難しく，これは運用時にうまくいかない要因となる．
 
 　この時，モデルに未知を検出する構造が導入されていれば，未知のクラスのデータが入ってきた場合に誤って既知のクラスに分類することを避けることができる．未知を未知として扱える構造は，誤りを減らすだけでなく，未知として正しく判別できれば，未知と判別されたデータを収集して，新たなクラスを定義することも考えられる．
 
